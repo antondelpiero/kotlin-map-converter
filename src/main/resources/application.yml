@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: test
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost/test?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: user
+    password: pass
